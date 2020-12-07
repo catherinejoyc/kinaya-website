@@ -1,0 +1,108 @@
+﻿html, body
+{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  font-family: DM Sans;
+  background-color: black;
+}
+
+.fillView{
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+
+.heroText{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.homeHeader{
+  font-size: 100px;
+  animation: appearText 5s;
+  animation-iteration-count: 1;
+}
+
+.heroImg{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/NightSky.png'); /* The image used */
+  background-color: black; /* Used if the image is unavailable */
+
+  height: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 130%; /* Resize the background image to cover the entire container */
+
+  animation: zoomImage 5s;
+  animation-iteration-count: 1;
+}
+
+
+.topnav {
+  overflow: hidden;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover{
+  font-weight: bold;
+  text-shadow: 0 0 3px white;
+}
+.topnav a.active {
+  font-weight: bold;
+  text-shadow: 0 0 3px white;
+}
+
+
+.footer{
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin: 0px;
+  padding: 5px;
+}
+.footer p{
+  margin: 0px;
+  padding: 0px;
+}
+
+@keyframes zoomImage {
+  from {background-size: 100%;}
+  to {background-size: 130%;}
+}
+
+@keyframes appearText {
+  from {color: rgba(255, 255, 255, 0);}
+  to {color: rgba(255, 255, 255, 1);}
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+	padding: 5px;
+  }
+}
