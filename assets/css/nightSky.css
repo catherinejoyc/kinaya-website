@@ -57,7 +57,6 @@
 .homeTagline{
   animation: appearText 5s;
   animation-iteration-count: 1;
-  animation-timing-function: ease-in-out;
 }
 
 .heroImg{
@@ -71,6 +70,7 @@
   object-fit: fill;
 
   animation: zoomImage 5s;
+  animation-timing-function: linear;
   animation-iteration-count: 1;
 }
 
