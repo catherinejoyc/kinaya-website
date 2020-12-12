@@ -13,16 +13,17 @@
 </head>
 
 <body>
-    <div class="fillView">
-        <div class="heroImg" id="whereIsEleanorRose">
-            <div class="topnav">
+    <div class="fillView"> <!-- Slideshow Container-->
+        <div class="heroImg projectSlides" id="whereIsEleanorRose"> <!-- Where is Eleanor Rose? -->
+
+            <div class="topnav"> <!-- fixed -->
                 <a href="index.html">Home</a>
                 <a class="active">Projects</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>
             </div>
 
-            <div class="heroText">
+            <div class="heroText"> <!-- caption text -->
                 <h1 class="projectHeader">Where is Eleanor Rose?</h1>
                 <h2 class="projectSummary">“Where is Eleanor Rose?” is a 2D top-down adventure game, that addresses the 5 stages of grief and takes place inside of the mind of a teenage schoolgirl.</h2>
                 <a href="#">
@@ -52,7 +53,7 @@
 			    </ul>
             </div>
 
-            <ul class="icons" id="footer">
+            <ul class="icons" id="footer"> <!-- fixed -->
                 <li><a class="tooltip" href="https://discord.gg/XrcEBbfRBS" target="_blank">
                     <span class="tooltiptext">Kinaya Discord</span>
 					<img src="assets/images/discord_icon.png" alt="Discord">
@@ -66,7 +67,42 @@
 					<img src="assets/images/mail_icon.png" alt="Mail">
 				</a></li>
 		    </ul>
-        </div>      
-    </div>
+        </div> <!-- Where is Eleanor Rose? -->
+
+        <div class="heroImg projectSlides"> <!-- Senior Year -->
+            <div class="topnav"> <!-- fixed -->
+                <a href="index.html">Home</a>
+                <a class="active">Projects</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="heroText"> <!-- caption text -->
+                <h1 class="projectHeader">Senior Year</h1>
+                <h2 class="projectSummary">coming soon</h2>
+            </div>
+
+            <ul class="icons" id="footer"> <!-- fixed -->
+                <li><a class="tooltip" href="https://discord.gg/XrcEBbfRBS" target="_blank">
+                    <span class="tooltiptext">Kinaya Discord</span>
+					<img src="assets/images/discord_icon.png" alt="Discord">
+				</a></li>
+                <li><a class="tooltip" href="https://www.instagram.com/kinayastudios/" target="_blank">
+                    <span class="tooltiptext">Kinaya Instagram</span>
+					<img src="assets/images/instagram_icon.png" alt="Instagram">
+				</a></li>
+                <li><a class="tooltip" href="mailto:kinayastudios@gmail.com" target="_blank">
+                    <span class="tooltiptext">Kinaya Mail</span>
+					<img src="assets/images/mail_icon.png" alt="Mail">
+				</a></li>
+		    </ul>
+        </div> <!-- Senior Year -->
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div> <!-- Slideshow Container-->
+
+    <script src="assets/js/slideshow.js"></script>
 </body>
 </html>
