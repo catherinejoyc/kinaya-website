@@ -26,6 +26,11 @@ a{
   text-decoration: none;
 }
 
+.bold{
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 3px #ffccff;
+}
 
 .icons{
   margin: 0px;
@@ -114,9 +119,9 @@ a{
 }
 .projectLink:hover{
   font-weight: bold;
-  text-shadow: 0 0 3px white;
+  text-shadow: 0 0 3px #ffccff;
   border-style: solid;
-    border-color: white;
+  border-color: white;
 }
 
 .topnav {
@@ -183,7 +188,7 @@ a{
   visibility: visible;
 }
 
-
+/* --- Projects --- */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -208,6 +213,34 @@ a{
 }
 .projectSlides{
   position: relative;
+}
+
+/* --- About --- */
+.about{
+  color: white;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.about .intro{
+  text-align: center;
+  padding: 2%;
+  width: 50%;
+  margin: auto;
+}
+.column {
+  float: left;
+  padding: 2%;
+  box-sizing: border-box;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
