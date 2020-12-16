@@ -219,6 +219,8 @@ a{
 .about{
   color: white;
 
+  max-height: 90%;
+
   margin: 0;
   position: absolute;
   top: 50%;
@@ -227,22 +229,69 @@ a{
 }
 .about .intro{
   text-align: center;
-  padding: 2%;
+  padding: 0px;
   width: 50%;
   margin: auto;
 }
-.column {
+.about .column {
   float: left;
-  padding: 2%;
+  padding: 1%;
+  margin: 1%;
   box-sizing: border-box;
-  width: 25%;
+  width: 23%;
+
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+
+  background-color: rgba(255, 255, 255, 0.15);
 }
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+.about .outro{
+  text-align: center;
+  padding: 2%;
+  width: 50%;
+  margin: auto;
+}
+.about a{
+ text-decoration: underline;
+}
+.about a:hover{
+  font-weight: bold;
+  text-shadow: 0 0 3px #ffccff;
+}
 
+.skills{
+ 
+}
+.skillContainer {
+  box-sizing: border-box;
+  margin: 10px 0px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.skillFilling{
+  box-sizing: border-box;
+  height: 20px;
+  padding-left: 5px;
+  color: white;
+}
+.unity{box-sizing: border-box; width: 100%; background-color: #8529a3;}
+.cSharp{box-sizing: border-box; width: 96%; background-color: #8529a3;}
+.html{box-sizing: border-box; width: 92%; background-color: #8529a3;}
+.css{box-sizing: border-box; width: 90%; background-color: #8529a3;}
+.github{box-sizing: border-box; width: 85%; background-color: #8529a3;}
+.js{box-sizing: border-box; width: 60%; background-color: #8529a3;}
+
+.photoshop{box-sizing: border-box; width: 100%; background-color: #cc3399;}
+
+.storywriting{box-sizing: border-box; width: 100%; background-color: #a32966;}
+
+.wwise{box-sizing: border-box; width: 100%; background-color: #7033cc;}
 
 @keyframes zoomImage {
   from {background-size: 100% 100%;}
