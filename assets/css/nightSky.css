@@ -220,6 +220,7 @@ a{
   color: white;
 
   max-height: 90%;
+  width: 100%;
 
   margin: 0;
   position: absolute;
@@ -246,6 +247,14 @@ a{
 
   background-color: rgba(255, 255, 255, 0.15);
 }
+.about h2{
+  margin-bottom: 1px;
+}
+.about .desc{
+  margin-top: 1px;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.7);
+}
 .row:after {
   content: "";
   display: table;
@@ -253,7 +262,7 @@ a{
 }
 .about .outro{
   text-align: center;
-  padding: 2%;
+  padding: 1%;
   width: 50%;
   margin: auto;
 }
