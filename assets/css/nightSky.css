@@ -83,46 +83,7 @@ a{
   animation: shiningImage 1s;
 }
 
-.projectSection{
-  height: 100%;
-  position: relative;
-}
 
-#whereIsEleanorRose{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/eleanor_promo2_medium.jpg'); /* The image used */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: 100%; /* Resize the background image to cover the entire container */
-  object-fit: cover;
-
-  animation: shiningImage 1s;
-}
-
-.projectHeader{
-  font-size: 72px;
-  margin: 0px;
-  padding: 0px;
-}
-.projectSummary{
-  font-weight: normal;
-}
-.projectLink{
-  margin: 30px auto;  
-  padding: 5px;
-  font-weight: normal;
-  cursor: pointer;
-  border-style: solid;
-  border-color: rgba(255, 255, 255, 0.2);
-  border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.2);
-
-}
-.projectLink:hover{
-  font-weight: bold;
-  text-shadow: 0 0 3px #ffccff;
-  border-style: solid;
-  border-color: white;
-}
 
 .topnav {
   overflow: hidden;
@@ -189,6 +150,48 @@ a{
 }
 
 /* --- Projects --- */
+.projectSection{
+  height: 100%;
+  position: relative;
+}
+
+#whereIsEleanorRose{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/eleanor_promo2_medium.jpg'); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 100%; /* Resize the background image to cover the entire container */
+  object-fit: cover;
+
+  animation: shiningImage 1s;
+}
+
+.projectHeader{
+  font-size: 72px;
+  margin: 0px;
+  padding: 0px;
+}
+.projectSummary{
+  font-weight: normal;
+}
+.projectLink{
+  margin: 30px auto;  
+  padding: 5px;
+  font-weight: normal;
+  cursor: pointer;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+
+}
+.projectLink:hover{
+  font-weight: bold;
+  text-shadow: 0 0 3px #ffccff;
+  border-style: solid;
+  border-color: white;
+}
+
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -242,10 +245,10 @@ a{
   width: 23%;
 
   border-style: solid;
-  border-width: 2px;
-  border-radius: 10px;
+  border-radius: 15px;
+  border-color: rgba(255, 255, 255, 0.7);
 
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .about h2{
   margin-bottom: 1px;
