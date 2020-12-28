@@ -267,6 +267,9 @@ a{
   font-size: 1em;
   color: rgba(255, 255, 255, 0.7);
 }
+.row{
+  margin: 1%;
+}
 .row:after {
   content: "";
   display: table;
